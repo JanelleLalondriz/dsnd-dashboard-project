@@ -62,4 +62,4 @@ class Employee(QueryBase):
                     JOIN employee_events
                         USING({self.name}_id)
                     WHERE {self.name}.{self.name}_id = {id}
-                """
+                """)

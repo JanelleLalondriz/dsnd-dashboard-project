@@ -63,4 +63,4 @@ class Team(QueryBase):
                     WHERE {self.name}.{self.name}_id = {id}
                     GROUP BY employee_id
                    )
-                """
+                """)
