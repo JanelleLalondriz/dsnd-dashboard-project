@@ -3,6 +3,33 @@
 
 This repository contains starter code for the **Software Engineering for Data Scientists** final project. Please reference your course materials for documentation on this repository's structure and important files. Happy coding!
 
+## Run the project
+
+Create and activate a virtual environment, then install all dependencies and
+the local `employee_events` package:
+
+```powershell
+python -m venv .venv
+.\.venv\Scripts\Activate.ps1
+python -m pip install -r requirements.txt
+```
+
+Run the package tests from the project root:
+
+```powershell
+python -m pytest
+```
+
+Start the dashboard:
+
+```powershell
+cd report
+python dashboard.py
+```
+
+Open `http://localhost:5001` in a browser. Use the employee/team controls to
+view event-based productivity and predicted recruitment risk.
+
 ### Repository Structure
 ```
 ├── README.md
